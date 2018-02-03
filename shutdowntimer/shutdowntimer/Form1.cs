@@ -23,17 +23,17 @@ namespace shutdowntimer
         //ShutDown - Restart - Sleep lập tức
         private void pic_Shutdown_Click(object sender, EventArgs e)
         {
-
+            ShutDown("-s");
         }
 
         private void pic_Restart_Click(object sender, EventArgs e)
         {
-
+            ShutDown("-r");
         }
 
         private void pic_Sleep_Click(object sender, EventArgs e)
         {
-
+            ShutDown("-h");
         }
         //Hẹn giờ
         decimal Time = 0;
@@ -70,18 +70,21 @@ namespace shutdowntimer
         {
             downTime();
             ShutDown("-s -t" + Time);
+            MessageBox.Show("Máy của bạn sẽ được tắt sau " + Time + " giây.");
         }
 
         private void btn_Restart_Click(object sender, EventArgs e)
         {
             downTime();
             ShutDown("-r -t" + Time);
+            MessageBox.Show("Máy của bạn sẽ được khởi động lại sau " + Time + " giây.");
         }
 
         private void btn_Huy_Click(object sender, EventArgs e)
         {
             //shutdown -a = Hủy lệnh
             ShutDown("-a");
+            MessageBox.Show("Đã hủy lệnh.");
         }
 
 
