@@ -87,6 +87,9 @@ namespace shutdowntimer
             MessageBox.Show("Đã hủy lệnh.");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -266,6 +266,7 @@
             this.Controls.Add(this.pic_Shutdown);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numeric_Gio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_Phut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_Giay)).EndInit();
