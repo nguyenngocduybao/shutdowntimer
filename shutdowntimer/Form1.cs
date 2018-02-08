@@ -46,23 +46,21 @@ namespace shutdowntimer
 
         private void numeric_Phut_ValueChanged(object sender, EventArgs e)
         {
-            NumericUpDown box = sender as NumericUpDown;
-
-            if (box.Value>=60)
+            if (numeric_Phut.Value >= 60)
             {
-                numeric_Gio.Value++;
-                box.Value = 0;
+                decimal a = numeric_Phut.Value / 60;
+                numeric_Gio.Value += a;
+                numeric_Phut.Value -= a * 60;
             }
         }
 
         private void numeric_Giay_ValueChanged(object sender, EventArgs e)
-        {
-            NumericUpDown box = sender as NumericUpDown;
-
-            if (box.Value >= 60)
+        {            
+            if (numeric_Giay.Value >= 60)
             {
-                numeric_Phut.Value++;
-                box.Value = 0;
+                decimal a = numeric_Giay.Value / 60;
+                numeric_Phut.Value += a;
+                numeric_Giay.Value -= a * 60;
             }
         }
 

@@ -10,3 +10,13 @@ C:\Users\BaoDuy\documents\visual studio 2015\Projects\shutdowntimer\shutdowntime
 C:\Users\BaoDuy\Documents\GitHub\shutdowntimer\shutdowntimer\bin\Debug\shutdowntimer.exe.config
 C:\Users\BaoDuy\Documents\GitHub\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.exe
 C:\Users\BaoDuy\Documents\GitHub\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.pdb
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\bin\Debug\shutdowntimer.exe.config
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\bin\Debug\shutdowntimer.exe
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\bin\Debug\shutdowntimer.pdb
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.Form1.resources
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.Properties.Resources.resources
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.csproj.GenerateResource.Cache
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.csproj.CoreCompileInputs.cache
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.exe
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.pdb
+D:\Mine\5. Study\Projects\Shutdowntimer\shutdowntimer\shutdowntimer\obj\Debug\shutdowntimer.csprojResolveAssemblyReference.cache
